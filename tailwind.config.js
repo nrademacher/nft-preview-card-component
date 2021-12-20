@@ -19,11 +19,17 @@ module.exports = {
                 "soft-blue": "#8BACD9",
                 cyan: "#00FFF8",
             },
-            backgroundCOlor: {
+            backgroundColor: {
                 main: "#0D192C",
                 card: "#15263F",
+                cyan: "#00FFF8",
+            },
+            borderColor: {
                 line: "#2E405A",
             },
+            backgroundImage: (theme) => ({
+                "card-header": "url('/images/image-equilibrium.jpg')",
+            }),
         },
     },
     variants: {
